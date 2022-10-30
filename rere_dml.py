@@ -1,7 +1,7 @@
 import torch
 from torch import nn, optim
 from torch.nn import functional as F
-import dl_model.rere_config as cnf
+import rere_config as cnf
 import ext.mish as mish
 from sklearn.neighbors import KDTree
 import numpy as np

@@ -1,11 +1,11 @@
 import torch
 from torch import optim
-import dl_model.rere_tsne as tsne
+import rere_tsne as tsne
 import numpy as np
-import dl_model.nystrom_net_pure as m
-import dl_model.rere_config as cnf
-import dl_model.dl_helper as hl
-import dl_model.rere_nystrom as nys
+import nystrom_net_pure as m
+import rere_config as cnf
+import dl_helper as hl
+import rere_nystrom as nys
 import time
 from torchtools.optim import RangerLars
 

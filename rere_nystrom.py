@@ -1,4 +1,4 @@
-import dl_model.dl_helper as hl
+import dl_helper as hl
 from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans,OPTICS,DBSCAN
 import uuid
@@ -107,7 +107,7 @@ class RereCluster:
 
 
 if __name__ == '__main__':
-    import dl_model.dl_helper as hl
+    import dl_helper as hl
 
     fp = 'H:\\nystrom_experiment\\magic04.arff'
     data_set = hl.ArffDataSet(fp).data.numpy()
